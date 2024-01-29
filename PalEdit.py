@@ -459,7 +459,7 @@ def swapgender():
     refresh(i)
 
 root = Tk()
-purplepanda = ImageTk.PhotoImage(Image.open(f'resources/叶胖达.png').resize((240,240)))
+purplepanda = ImageTk.PhotoImage(Image.open(f'resources/MossandaIcon.png').resize((240,240)))
 root.iconphoto(True, purplepanda)
 root.title(f"帕鲁属性编辑器 v{version}")
 root.geometry("") # auto window size
